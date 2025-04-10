@@ -6,7 +6,7 @@ function Sobre() {
     <div className="aboutMe">
         <div className="left">
             <div className="picture" style={{position: 'relative', left: '65%', top: '50px'}}>
-             <img src="src\assets\images\IMG_9908.JPG" width={250}/>
+             <img src={"/static/images/IMG_9908.JPG"} width={250}/>
             </div>
         </div>
 
