@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from '../components/menu'
+import Menu from '../components/Menu'
 import Rodape from '../components/Rodape'
 import PicturesRetrat from '../components/PicturesRetrat'
 
