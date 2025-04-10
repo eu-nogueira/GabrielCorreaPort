@@ -18,7 +18,7 @@ function PicturesRetrat() {
                 <img src={"/static/images/IMG_9183.jpg"} alt="picture4" width={300}/>
             </div>
             <div className="picture">
-                <img src={"/static/images/IMG_2576.jpg"} alt="picture5" width={300}/>
+                <img src={"/static/images/IMG_2576.JPG"} alt="picture5" width={300}/>
             </div>
             <div className="picture">
                 <img src={"/static/images/IMG_7398.jpg"} alt="picture6" width={300}/>
