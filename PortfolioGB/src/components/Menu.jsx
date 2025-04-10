@@ -25,9 +25,9 @@ function Menu() {
       </div>
       <div class="modal-body">
         <ul style={{listStyle: 'none'}}>
-          <li><img src="src\assets\images\e-mail-symbol-email-icon-flat-graphic-illustration-isolated-vector-removebg-preview.png" width={27}/> contato.correafotos@gmail.com</li>
-          <li><img src="src\assets\images\OIP__13_-removebg-preview.png" width={25}/>  @gabrielcorreafoto</li>
-          <li><img src="src\assets\images\10000485-removebg-preview.png" width={30} /> (51) 9 9707-1097</li>
+          <li><img src="\src\assets\images\e-mail-symbol-email-icon-flat-graphic-illustration-isolated-vector-removebg-preview.png" width={27}/> contato.correafotos@gmail.com</li>
+          <li><img src="\src\assets\images\OIP__13_-removebg-preview.png" width={25}/>  @gabrielcorreafoto</li>
+          <li><img src="\src\assets\images\10000485-removebg-preview.png" width={30} /> (51) 9 9707-1097</li>
         </ul>
       </div>
       <div class="modal-footer">
