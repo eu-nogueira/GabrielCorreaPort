@@ -1,8 +1,9 @@
 import React from 'react'
+import "../index.css"
 
 function Retratos() {
   return (
-    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.9)', height: '85vh', display: 'flex', gap: '3%', alignItems: 'center', justifyContent: 'center', fontFamily: 'orbitron', color: 'white'}}>
+    <div className='retPhoto'>
         <div className="retrato">
             <figure>
                 <a href="retratopage">

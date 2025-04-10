@@ -1,3 +1,99 @@
 .picture {
     margin: 7% 0;
 }
+
+.aboutMe {
+    background-color: rgba(0, 0, 0, 0.8); 
+    height: 81.3vh; 
+    display: flex;
+}
+
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 40%; 
+    position: absolute;
+    right: 11%; 
+    top: 30%;
+}
+
+.retPhoto {
+    background-color: rgba(0, 0, 0, 0.8); 
+    height: 85vh;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'orbitron';
+    color: white;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.logoWhats {
+    position: sticky;
+    bottom: 4%;
+    margin-left: 93%;
+}
+
+.picturesSty {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .left img {
+        width: 100%;
+    }
+
+    .right {
+        position: relative;
+        margin-top: 70%;
+        left: 32%;
+        text-align: center;
+    }
+
+    .right p {
+        width: 100%;
+    }
+
+    .retPhoto {
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoWhats {
+        margin-left: 85%;
+    }
+
+    .picturesSty {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "../index.css"
 
 function Sobre() {
   return (
-    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.9)', height: '81.3vh', display: 'flex'}}>
-        <div className="left" style={{width:'20%'}}>
+    <div className="aboutMe">
+        <div className="left">
             <div className="picture" style={{position: 'relative', left: '65%', top: '50px'}}>
              <img src="src\assets\images\IMG_9908.JPG" width={250}/>
             </div>

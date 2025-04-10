@@ -3,8 +3,8 @@ import '../index.css'
 
 function PicturesRetrat() {
   return (
-    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.9)'}}>
-        <div className="pictures" style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', textAlign: 'center'}}>
+    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.8)'}}>
+        <div className="pictures">
             <div className="picture">
                 <img src="src\assets\images\IMG_7491.jpg" alt="picture1" width={300}/>
             </div>
@@ -42,9 +42,9 @@ function PicturesRetrat() {
                 <img src="src\assets\images\IMG_9053.jpg" alt="picture12" width={300}/>
             </div>
         </div>
-    <div className="logoWhats" style={{position: 'sticky', bottom: '2%', marginLeft: '90%'}}>
+    <div className="logoWhats">
         <a href="https://api.whatsapp.com/send?phone=5551997071097&text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20seus%20pacotes%20de%20servi%C3%A7os.">
-            <img src="src\assets\images\OIP__11_-removebg-preview.png" alt="Logo whatsapp" width={100}/>
+            <img src="src\assets\images\10000485-removebg-preview.png" alt='Logo Whatsapp' width={50}/>
         </a>
     </div>
     </div>
