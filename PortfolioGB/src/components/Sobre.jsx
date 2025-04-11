@@ -10,7 +10,7 @@ function Sobre() {
             </div>
         </div>
 
-        <div className="right" style={{width: '40%', position: 'absolute', right: '11%', top: '30%'}}>
+        <div className="right" style={{width: '40%', position: 'relative', left: '30%', top: '30%'}}>
         <p style={{color: 'white', fontFamily: 'roboto Mono', fontSize: '11pt'}}>
               Olá, prazer! Eu sou o Gabriel, Eu venho atuando na área audiovisual há 4 anos, e nesse caminho
               descobri os retratos como uma especialidade. Tenho 25 anos de

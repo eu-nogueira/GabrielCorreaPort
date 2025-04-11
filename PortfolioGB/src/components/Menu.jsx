@@ -1,18 +1,39 @@
-import React from 'react'
-import "../index.css"
+import React, { useState } from 'react';
+import "../index.css";
 
 function Menu() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div style={{backgroundColor: 'black', display: 'flex', justifyContent: 'space-around', position:'relative', top:'0', width:'100%'}}>
-      <h3 style={{padding: '20px 0', color: 'white', fontFamily: 'oswald'}}>GABRIEL CORRÊA</h3>
-      <ul class="nav nav-tabs align-items-center">
-  <li class="nav-item" style={{fontFamily: 'orbitron'}}>
-    <a class="nav-link text-white" href="sobremim">SOBRE MIM</a>
-  </li>
-  <li class="nav-item" style={{fontFamily: 'orbitron'}}>
-    <a class="nav-link text-white" href="/">PORTFÓLIO</a>
-  </li>
-  <li class="nav-item" style={{fontFamily: 'orbitron'}}>
+    <div style={{ backgroundColor: 'black', position: 'relative', top: '0', width: '100%' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px 20px' }}>
+        <h3 style={{ color: 'white', fontFamily: 'oswald' }}>GABRIEL CORRÊA</h3>
+        <button
+          onClick={toggleMenu}
+          style={{
+            backgroundColor: 'transparent',
+            border: 'none',
+            color: 'white',
+            fontSize: '24px',
+            cursor: 'pointer',
+          }}
+        >
+          ☰
+        </button>
+      </div>
+      {isOpen && (
+        <ul style={{ listStyle: 'none', padding: '0', margin: '0', backgroundColor: 'black', textAlign: 'center' }}>
+          <li style={{ padding: '10px 0', fontFamily: 'orbitron' }}>
+            <a href="sobremim" style={{ color: 'white', textDecoration: 'none' }}>SOBRE MIM</a>
+          </li>
+          <li style={{ padding: '10px 0', fontFamily: 'orbitron' }}>
+            <a href="/" style={{ color: 'white', textDecoration: 'none' }}>PORTFÓLIO</a>
+          </li>
+          <li class="nav-item" style={{fontFamily: 'orbitron'}}>
 <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
   CONTATO
 </button>
@@ -37,9 +58,10 @@ function Menu() {
   </div>
 </div>
   </li>
-</ul>
+        </ul>
+      )}
     </div>
-  )
+  );
 }
 
-export default Menu
+export default Menu;
