@@ -105,31 +105,39 @@
 }
 
 @media screen and (max-width: 500px) {
-    .retrato {
-        margin-top: -170%;
-    }
     .mainMenu {
         display: 1;
     } 
 
     .aboutMe {
-    max-height: 110vh;
+    max-height: 130vh;
     }
+
+    .aboutMe p {
+        width: 100%;
+    }
+
+    .retPhoto {
+        max-height: 130vh;
+    }
+
+    
 }
 
 @media screen and (max-width: 400px) {
-    .retrato {
-        margin-top: -170%;
-    }
-
     .aboutMe {
         max-height: 200vh;
     }
 
     .aboutMe img {
-        margin-top: -160%;
+        margin-top: -100%;
     }
+
     .aboutMe p {
         margin-top: 30%;
+    }
+
+    .retPhoto {
+        max-height: 160vh;
     }
 }
