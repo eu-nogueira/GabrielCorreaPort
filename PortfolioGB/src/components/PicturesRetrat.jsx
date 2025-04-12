@@ -3,7 +3,7 @@ import '../index.css'
 
 function PicturesRetrat() {
   return (
-    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.8)'}}>
+    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.9)'}}>
         <div className="pictures">
             <div className="picture">
                 <img src={"/static/images/IMG_7491.jpg"} alt="picture1" width={300}/>
