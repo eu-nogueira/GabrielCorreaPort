@@ -5,12 +5,12 @@ function Sobre() {
   return (
     <div className="aboutMe">
         <div className="left">
-            <div className="picture" style={{position: 'relative', left: '65%', top: '50px'}}>
+            <div className="picture">
              <img src={"/static/images/IMG_9908.JPG"} width={250}/>
             </div>
-        </div>
+        </div> 
 
-        <div className="right" style={{width: '40%', position: 'relative', left: '30%', top: '30%'}}>
+        <div className="right">
         <p style={{color: 'white', fontFamily: 'roboto Mono', fontSize: '11pt'}}>
               Olá, prazer! Eu sou o Gabriel, Eu venho atuando na área audiovisual há 4 anos, e nesse caminho
               descobri os retratos como uma especialidade. Tenho 25 anos de
