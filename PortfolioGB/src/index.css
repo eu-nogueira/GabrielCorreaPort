@@ -78,7 +78,7 @@
     .aboutMe {
         display: flex;
         flex-direction: column;
-        height: 200vh;
+        height: 140vh;
         justify-content: center;
     }
 
@@ -113,7 +113,7 @@
     } 
 
     .aboutMe {
-    max-height: 130vh;
+        height: 170vh;
     }
 
     .aboutMe p {
@@ -129,11 +129,11 @@
 
 @media screen and (max-width: 400px) {
     .aboutMe {
-        max-height: 200vh;
+        height: 230vh;
     }
 
     .aboutMe img {
-        margin-top: -100%;
+        margin-top: -60%;
     }
 
     .aboutMe p {
