@@ -3,6 +3,7 @@ import "../index.css"
 
 function Sobre() {
   return (
+    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.9)'}}>
     <div className="aboutMe">
         <div className="left">
             <div className="picture">
@@ -23,6 +24,7 @@ function Sobre() {
             </p>
         </div>
     </div>
+  </div>
   )
 }
 

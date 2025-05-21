@@ -3,6 +3,7 @@ import "../index.css"
 
 function Retratos() {
   return (
+    <div style={{backgroundColor: 'rgba(0, 0, 0, 0.9)'}}>
     <div className='retPhoto'>
         <div className="retrato">
             <figure>
@@ -20,6 +21,7 @@ function Retratos() {
                     <figcaption style={{textAlign: 'center',  marginTop: '10px'}}>LIFESTYLE</figcaption>
             </figure>
         </div>
+    </div>
     </div>
   )
 }
