@@ -76,7 +76,6 @@
     .aboutMe {
         display: flex;
         flex-direction: column;
-        height: 140vh;
         justify-content: center;
         padding: 80% 0 0 0;
     }
@@ -113,7 +112,6 @@
 
     .aboutMe {
         padding: 10% 0 0 0;
-        height: 170vh;
     }
 
     .aboutMe p {
@@ -124,8 +122,7 @@
 
 @media screen and (max-width: 400px) {
      .aboutMe {
-        padding: 10% 0 0 0;
-        height: 230vh;
+        padding: 50% 0 0 0;
     }
 
     .aboutMe img {
